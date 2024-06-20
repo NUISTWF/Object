@@ -1,0 +1,21 @@
+交叉编译
+arm-fullhanv3-linux-uclibcgnueabi-gcc 
+
+板子：192.168.1.3
+虚拟机：192.168.1.1
+主机：192.168.1.2
+
+在开发板上将ip是192.168.1.1下的 /mnt/nfs_share 的目录挂载到本开发板下的 /mnt 目录下（-t表示类型type）
+mount -t nfs 192.168.1.1:/mnt/nfs_share /mnt -o nolock
+
+查看系统时间：
+date
+修改系统时间：
+date -s "2018-10-31 11:15:35"   （该处时间设置的应是实际北京时间-8小时）
+写入硬件时钟（RTC）：
+hwclock -w
+就上面两步，设置系统时钟加写入硬件时钟
+查看硬件时间：
+hwclock
+
+是否有足够的数据包可供处理

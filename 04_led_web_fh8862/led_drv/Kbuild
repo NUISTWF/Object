@@ -1,0 +1,2 @@
+EXTRA_CFLAGS = -Wall -g
+obj-m        = led_drv.o

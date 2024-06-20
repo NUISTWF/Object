@@ -1,0 +1,31 @@
+Log file created at: 2024/04/12 20:57:49  PID: 20692
+Running on machine: LAPTOP-68NPSLAG
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0412 20:57:49.212630 25840 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], version: V1.0.1 
+ 
+I0412 20:58:01.425799 25840 UniOneDebugToolDlg.cpp:957] in function[CUniOneDebugToolDlg::StartBurn], opening Serial Port 3 
+I0412 20:58:01.428800 25840 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], COM put_setting 921600, N, 8, 1 port:3 
+ 
+I0412 20:58:33.518230 22564 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], COM3 XmodermSendFile detected CCC, start send file 
+ 
+I0412 20:58:33.519219 22564 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], COM3 ReadSendFile C:\Users\wangfei\Desktop\smart-house\jx_firm\jx_su_03t_release_update.bin m_iTransferTimes finished 1233 
+ 
+I0412 20:59:34.114758 25840 UniOneDebugToolDlg.cpp:957] in function[CUniOneDebugToolDlg::StartBurn], opening Serial Port 3 
+I0412 20:59:34.115744 25840 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], COM put_setting 921600, N, 8, 1 port:3 
+ 
+I0412 20:59:43.922897 22564 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], COM3 XmodermSendFile detected CCC, start send file 
+ 
+I0412 20:59:43.923885 22564 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], COM3 ReadSendFile C:\Users\wangfei\Desktop\smart-house\jx_firm\jx_su_03t_release_update.bin m_iTransferTimes finished 1233 
+ 
+Log file created at: 2024/04/12 21:00:51  PID: 23436
+Running on machine: LAPTOP-68NPSLAG
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0412 21:00:51.055706 10540 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], version: V1.0.1 
+ 
+I0412 21:01:01.889554 10540 UniOneDebugToolDlg.cpp:957] in function[CUniOneDebugToolDlg::StartBurn], opening Serial Port 3 
+I0412 21:01:01.891551 10540 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], COM put_setting 921600, N, 8, 1 port:3 
+ 
+I0412 21:01:02.710464 28752 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], COM3 XmodermSendFile detected CCC, start send file 
+ 
+I0412 21:01:02.711452 28752 code_page.cpp:268] in function[Unisound::OutputDebugPrintf], COM3 ReadSendFile C:\Users\wangfei\Desktop\smart-house\jx_firm\jx_su_03t_release_update.bin m_iTransferTimes finished 1233 
+ 

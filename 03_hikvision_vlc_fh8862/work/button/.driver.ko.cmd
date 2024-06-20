@@ -1,0 +1,1 @@
+cmd_/home/fh8862/work/button/driver.ko := arm-fullhanv3-linux-uclibcgnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/fh8862/work/button/driver.ko /home/fh8862/work/button/driver.o /home/fh8862/work/button/driver.mod.o ;  true

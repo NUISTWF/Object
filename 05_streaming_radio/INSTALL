@@ -1,0 +1,1 @@
+免安装，在当前目录直接make即可，进入src下面的server文件夹运行server可执行程序即可启动服务器，进入client文件夹运行client即可收听

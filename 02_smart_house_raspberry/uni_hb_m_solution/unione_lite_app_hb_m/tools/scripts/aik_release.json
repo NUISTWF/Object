@@ -1,0 +1,76 @@
+{
+  "log": 6,
+  "audio_stream": {
+    "time_out": 16,
+    "channels": 2,
+    "stack_size": 4,
+    "rate": 16000,
+    "bits": 16,
+    "frame": 16,
+    "out_frame": 16,
+    "save_enable": 0,
+    "save_path": "."
+  },
+  "audio_adapter": {
+    "samples": 256,
+    "in_channels": 2,
+    "out_channels": 1,
+    "out_rules": "1"
+  },
+  "uploader": {
+    "enable": 0
+  },
+  "kws_lp": {
+    "log": 1,
+    "engine_buffer_size": 48,
+    "model_id": 0,
+    "default_mode": 0,
+    "stack_size": 3,
+    "ring_buffer_size": 4,
+    "timeout": 30,
+    "start_end_time_enable": 1,
+    "bunch_frame_num": 12,
+    "save_enable": 0,
+    "save_path": ".",
+    "wakeup": {
+      "fa": "0.4",
+      "fa_second": "0.8",
+      "fa_sleep": "0.05",
+      "time_to_sleep": 300,
+      "time_second_wakeup": 5,
+      "wuws": [
+        {
+          "wuw": "你好魔方",
+          "fa_table": [
+            4.6,
+            3.92,
+            3.24,
+            3.03,
+            2.21,
+            1.31,
+            0.87,
+            0.52,
+            0.21,
+            -0.36
+          ]
+        }
+      ]
+    },
+    "command": {
+      "command_tag": "ivm",
+      "fa": "0.8",
+      "fa_table": [
+        12.17,
+        10.99,
+        9.85,
+        9.47,
+        7.9,
+        6.21,
+        5.21,
+        4.43,
+        3.82,
+        2.5
+      ]
+    }
+  }
+}

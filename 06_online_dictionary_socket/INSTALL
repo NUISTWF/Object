@@ -1,0 +1,7 @@
+No installation required, just make it in the current directory, 
+enter the server folder under src and run the server executable program to start the server, 
+enter the client folder and run the client to start the word query service.
+
+make
+cd src/server ./server
+cd src/client ./client

@@ -1,0 +1,1 @@
+cmd_/home/fh8862/my/myboa/led_drv/led_drv.ko := arm-fullhanv3-linux-uclibcgnueabi-ld -EL -r  -T ./scripts/module-common.lds --build-id  -o /home/fh8862/my/myboa/led_drv/led_drv.ko /home/fh8862/my/myboa/led_drv/led_drv.o /home/fh8862/my/myboa/led_drv/led_drv.mod.o ;  true
