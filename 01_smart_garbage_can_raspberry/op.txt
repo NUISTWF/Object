@@ -1,0 +1,26 @@
+/* 首先要版本要是python3，其次还需要python3的dev包，可以通过 dpkg -l | grep libpython3 | grep dev 查看，没有的话就需要安装 sudo apt install libpython3.9-dev  */
+
+// 打开摄像头实时监控（& 是指后台执行）
+./mjpg.sh &
+
+// 添加环境变量（导入环境变量才能进行阿里云识别）
+export ALIBABA_CLOUD_ACCESS_KEY_ID="***"
+export ALIBABA_CLOUD_ACCESS_KEY_SECRET="***"
+
+// 舵机数据口的驱动编译（树莓派BCM引脚的21）
+make
+insmod servo.ko
+chmod 777 /dev/servo
+
+// 编译运行
+gcc main.c garbage.c myoled.c oled.c socket.c -o main -I /usr/include/python3.9/ -l python3.9 -lwiringPi -lpthread
+
+// 执行
+./main
+
+// 可以切换到另外一个界面执行网络连接，open之后即可开始识别
+nu 192.168.18.11 9999
+open
+
+// 可以直接呼喊“你好小陌”，触发语音自动识别垃圾；也可以通过串口发送数据
+AA 55 46 00 55 AA
