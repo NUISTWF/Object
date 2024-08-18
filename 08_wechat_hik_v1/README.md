@@ -31,6 +31,8 @@
 │       ├── Makefile               --> 服务器 Makefile
 │       └── server.c               --> 服务器源代码
 └── wechat.pptx                    --> 项目的ppt
+![image](https://github.com/user-attachments/assets/bb72e291-25e0-482c-871a-b46ce14f73fc)
+
 
 ## 功能模块
 
