@@ -8,29 +8,29 @@
 
 .
 │── doc
-│   └── admin                     --> 作者信息
+│   └── admin                      --> 作者信息
 │── INSTALL
-│   └── operation.md        --> 操作文档
+│   └── operation.md               --> 操作文档
 │── Makefile                       --> 整个项目的总 Makefile（编译直接在当前目录make即可）
-│── README.md                --> 整体项目说明
-│── src                                 --> 源码文件夹
-│   │── client1                     --> 客户端1文件夹（作为一个用户来执行./client1）
-│   │   ├── client1.c            --> 客户端1源代码
-│   │   ├── hello.c               --> 客户端1测试文件（用户1发文件给好友）
-│   │   ├── Makefile           --> 客户端1的 Makefile
-│   │   └── test.txt              --> 客户端1测试文件（用户1发文件给好友）
+│── README.md                      --> 整体项目说明
+│── src                            --> 源码文件夹
+│   │── client1                    --> 客户端1文件夹（作为一个用户来执行./client1）
+│   │   ├── client1.c              --> 客户端1源代码
+│   │   ├── hello.c                --> 客户端1测试文件（用户1发文件给好友）
+│   │   ├── Makefile               --> 客户端1的 Makefile
+│   │   └── test.txt               --> 客户端1测试文件（用户1发文件给好友）
 │   │── client2  
-│   │   ├── client2.c            --> 客户端2源代码
-│   │   └── Makefile            --> 客户端2的 Makefile
+│   │   ├── client2.c              --> 客户端2源代码
+│   │   └── Makefile               --> 客户端2的 Makefile
 │   │── client3
-│   │   ├── client3.c            --> 客户端3源代码
-│   │   └── Makefile            --> 客户端3的 Makefile
+│   │   ├── client3.c              --> 客户端3源代码
+│   │   └── Makefile               --> 客户端3的 Makefile
 │   │── include             
-│   │   └── proto.h              --> 服务器客户端双方通信协议头文件
-│   └── server                      --> 服务器文件夹
-│       ├── Makefile              --> 服务器 Makefile
+│   │   └── proto.h                --> 服务器客户端双方通信协议头文件
+│   └── server                     --> 服务器文件夹
+│       ├── Makefile               --> 服务器 Makefile
 │       └── server.c               --> 服务器源代码
-└── wechat.pptx                 --> 项目的ppt
+└── wechat.pptx                    --> 项目的ppt
 
 ## 功能模块
 
