@@ -19,13 +19,13 @@
 │   │   ├── hello.c               --> 客户端1测试文件（用户1发文件给好友）
 │   │   ├── Makefile           --> 客户端1的 Makefile
 │   │   └── test.txt              --> 客户端1测试文件（用户1发文件给好友）
-│   │── client2  
+│   │── client2
 │   │   ├── client2.c            --> 客户端2源代码
 │   │   └── Makefile            --> 客户端2的 Makefile
 │   │── client3
 │   │   ├── client3.c            --> 客户端3源代码
 │   │   └── Makefile            --> 客户端3的 Makefile
-│   │── include             
+│   │── include
 │   │   └── proto.h              --> 服务器客户端双方通信协议头文件
 │   └── server                      --> 服务器文件夹
 │       ├── Makefile              --> 服务器 Makefile
