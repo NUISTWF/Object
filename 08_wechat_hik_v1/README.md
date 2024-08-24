@@ -5,32 +5,8 @@
 本项目是一个基于TCP协议的聊天系统，旨在为用户提供一个功能丰富、易于使用的即时通讯平台。系统支持用户注册、登录、注销、好友管理、消息发送和接收等功能，并确保消息的实时性和可靠性。
 
 ## 文件介绍
+![image](https://github.com/user-attachments/assets/bb72e291-25e0-482c-871a-b46ce14f73fc)
 
-.
-│── doc
-│   └── admin                     --> 作者信息
-│── INSTALL
-│   └── operation.md        --> 操作文档
-│── Makefile                       --> 整个项目的总 Makefile（编译直接在当前目录make即可）
-│── README.md                --> 整体项目说明
-│── src                                 --> 源码文件夹
-│   │── client1                     --> 客户端1文件夹（作为一个用户来执行./client1）
-│   │   ├── client1.c            --> 客户端1源代码
-│   │   ├── hello.c               --> 客户端1测试文件（用户1发文件给好友）
-│   │   ├── Makefile           --> 客户端1的 Makefile
-│   │   └── test.txt              --> 客户端1测试文件（用户1发文件给好友）
-│   │── client2
-│   │   ├── client2.c            --> 客户端2源代码
-│   │   └── Makefile            --> 客户端2的 Makefile
-│   │── client3
-│   │   ├── client3.c            --> 客户端3源代码
-│   │   └── Makefile            --> 客户端3的 Makefile
-│   │── include
-│   │   └── proto.h              --> 服务器客户端双方通信协议头文件
-│   └── server                      --> 服务器文件夹
-│       ├── Makefile              --> 服务器 Makefile
-│       └── server.c               --> 服务器源代码
-└── wechat.pptx                 --> 项目的ppt
 
 ## 功能模块
 
