@@ -23,7 +23,7 @@ struct msg_channel_st {     // 其他频道号发的数据流
 
 struct msg_listentry_st {
     uint8_t chnid;          // 节目频道号                             1 
-    uint16_t len;           // len表示此时该结构体是多大，占多少字节，这样才能知道后续哪里是id那里是内容
+    uint16_t len;           // len表示此时该结构体是多大，占多少字节，这样才能知道后续哪里是id哪里是内容
     uint8_t desc[];         // 节目描述可长可短，如下节目单的样式       music:baby I'm sorry
 }__attribute__((packed));
 

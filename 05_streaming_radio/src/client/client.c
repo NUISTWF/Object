@@ -284,7 +284,7 @@ int main(int argc, char* argv[])
 
         free(msg_channel);
 
-         // 当前关闭收音机的时候就默认离开多播组了，程序结束时，使用 DROP 操作离开多播组
+        // 当前关闭收音机的时候就默认离开多播组了，程序结束时，使用 DROP 操作离开多播组
         if (setsockopt(udp_sd, IPPROTO_IP, IP_DROP_MEMBERSHIP, &mreq, sizeof(mreq)) == -1) {
             perror("setsockopt(IP_DROP_MEMBERSHIP)");
             close(udp_sd);
